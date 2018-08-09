@@ -1,4 +1,4 @@
-# Curso de Git Profesional
+# Curso de Git y GitHub Profesional
 
 ## Tabla de Contenido
 
@@ -15,19 +15,34 @@
 
   Los tipos de sistemas de control son:
 
-#### Local Computer:
-  Solo vive en nuestro computador
+#### `Local Computer:`
+  Solo vive en nuestro computador.
+  
+  <div align="center">
+    <img src="static/git-local.png">
+    <small><p>Sistema de Control Local</p></small>
+  </div>
 
-#### Centralizado:
+#### `Centralizado:`
   No depende únicamente de un computador en el que se trabaja, sino que depende del súper servidor en donde se almacena la información. El servidor provee las copias a sus hijos, pero solo guarda los cambios en un solo lugar.
 
-#### Sistema de control distribuido:
+  <div align="center">
+    <img src="static/git-centralizado.png">
+    <small><p>Sistema de Centralizado</p></small>
+  </div>
+
+#### `Sistema de control distribuido:`
    Cada uno de los que participan en el proyecto, tienen copia del proyecto que se realiza, por eso no dependemos de un solo computador que almacene toda la información.
 
-### Qué es GIT?
+   <div align="center">
+    <img src="static/git-distribuido.png">
+    <small><p>Sistema de Distribuido Local</p></small>
+  </div>
+
+### `Qué es GIT?`
   Git es un Sistema de control de Versiones Distribuido.
 
-### Quien fue el creador de GIT?
+### `Quien fue el creador de GIT?`
   El creador fue `Linus Torvalds` todo por un polemica, el core de Linux entre (1991-2002) se manejaba con un control de versiones llamado `BitKeeper` (Privativo), la relación entre la comunidad y la compañia que desarrollaba `BitKeeper` se vino abajo y dejo de ser gratuita. Por esa razón la comunidad de Linux y Linus Torvalds, desarrollaron su propio control de versiones llamado GIT.
 
 
@@ -54,6 +69,17 @@
 ### - Capaz de manejar grandes proyectos:
   Es capaz de manejar proyectos muy grandes como linux y demas.
 
+### - Git almacena referencias:
+  Git almacena referencias a los archivos que no se han cambiado.
+  Cualquier trabajo es local, puedes trabajar en cualquier parte incluso sin internet.
+
+### - Git tiene integridad:
+  No puedes perder información durante su transmisión o sufrir corrupción de archivos sin que Git lo detecte.
+  Git almacena con `SHA-1`:
+  ```sha
+    24b9da6552252987aa493b52f8696cd6d3b00373
+  ```
+  Estos hacen referencias a una instantanea o cambios.
 
 <div align="right">
   <small><a href="#tabla-de-contenido">🡡 volver al inicio</a></small>
