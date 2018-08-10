@@ -36,13 +36,13 @@
 
    <div align="center">
     <img src="static/git-distribuido.png">
-    <small><p>Sistema de Distribuido Local</p></small>
+    <small><p>Sistema de Distribuido</p></small>
   </div>
 
-### `Qué es GIT?`
+### Qué es GIT?
   Git es un Sistema de control de Versiones Distribuido.
 
-### `Quien fue el creador de GIT?`
+### Quien fue el creador de GIT?
   El creador fue `Linus Torvalds` todo por un polemica, el core de Linux entre (1991-2002) se manejaba con un control de versiones llamado `BitKeeper` (Privativo), la relación entre la comunidad y la compañia que desarrollaba `BitKeeper` se vino abajo y dejo de ser gratuita. Por esa razón la comunidad de Linux y Linus Torvalds, desarrollaron su propio control de versiones llamado GIT.
 
 
